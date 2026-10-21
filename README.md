@@ -1,29 +1,18 @@
-# LHOTKA987 — Premium Fashion Store
+# LHOTKA987 — Luxury Fashion V2
 
-**Style Beyond Limits.** A polished, responsive multi-page static fashion storefront in English.
+Premium, responsive static storefront for GitHub Pages. Brand: black `#151515`, champagne gold `#D5B77A`, white. Language: English. Currency: USD.
 
 ## Files
+- `index.html` — homepage, collections, search, filtering, product cards, cart, quick view
+- `lookbook.html` — editorial collection
+- `size-guide.html` — illustrative size chart
+- `faq.html` — common questions
+- `contact.html`, `shipping.html`, `privacy.html`, `terms.html` — supporting pages
+- `assets/css/style.css` — styling
+- `assets/js/app.js` — interactive demo
 
-- `index.html` — homepage, editorial sections, product catalog and shopping bag
-- `assets/css/style.css` — complete responsive styling
-- `assets/js/app.js` — product catalog, filters, sorting, search, cart and local storage
-- `contact.html` — contact information and demonstration form
-- `shipping.html` — shipping and returns placeholder
-- `privacy.html` — demonstration privacy notice
-- `terms.html` — demonstration terms of use
+## Publish
+Upload the *contents* of this folder to the repository root. In Settings → Pages, deploy from `main` / `(root)`. The site uses relative paths and requires no build step.
 
-## Publishing on GitHub Pages
-
-1. Extract the ZIP.
-2. Upload **the contents of the `LHOTKA987_Store` folder** to the root of your GitHub repository (not the enclosing folder).
-3. Go to **Settings → Pages → Deploy from a branch**.
-4. Select `main` and `/ (root)` and save.
-5. Open the published URL after deployment.
-
-## Editing
-
-Edit the `products` array at the top of `assets/js/app.js` to change product names, prices, categories and images. Update the colors in `assets/css/style.css` under `:root`.
-
-## Important
-
-This is a **demo storefront**, not a live ecommerce checkout. All products, prices and policies are placeholders. The cart uses browser localStorage and does not transmit orders. Newsletter/contact forms do not submit data. Photographs from Unsplash and Google Fonts require internet access; test images and replace them with appropriately licensed brand assets before commercial use. No real payment, shipping or inventory backend is included.
+## Before commercial launch
+This is a demonstration, not a live shop. Product names/prices are samples, image URLs are externally hosted, and no payments, orders, newsletter submissions or contact messages are processed. Replace images with licensed, locally hosted assets; verify catalog and size data; add legal policies and contact information; integrate secure commerce and fulfillment services before selling.
